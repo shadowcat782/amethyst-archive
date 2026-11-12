@@ -1,0 +1,40 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Architectures: amd64 all
+Codename: amethyst
+Components: main
+Date: Thu, 12 Nov 2026 04:53:37 +0000
+Description: Amethyst Linux rolling repository
+Label: Amethyst
+Origin: Amethyst
+Suite: amethyst
+Version: 1.0
+MD5Sum:
+ 6985fbfbc51b5da95accdd0be58d9053            53619 main/binary-amd64/Packages
+ cf03892585a5289062f15200e1a6ba49            16494 main/binary-amd64/Packages.gz
+SHA1:
+ c65adbf29f1de4a3dc95ef4dd858030822da8e68            53619 main/binary-amd64/Packages
+ d6c781ee7d56bb2e31be3b3bf838ef901617ffa5            16494 main/binary-amd64/Packages.gz
+SHA256:
+ 17982345fab66559979617dec9c2773ffec449fe4a6e4d7644deee0acb66120b            53619 main/binary-amd64/Packages
+ a60ac17143492307ab881170f525dc5cc606a5c9dd6fc672d313fa84670d4344            16494 main/binary-amd64/Packages.gz
+SHA512:
+ b767f8b136ef0d1faf08bebeb20ff6748fb70f5df3d6de72272da9f3bfd98db238e92694f0fe7b57529c2fb518b3932f2a5518c6c159bf7c610591cb4b51458d            53619 main/binary-amd64/Packages
+ cf4363f0a40a8f1d47108d3bddcec511d83d63485a0d2317a08379d49a83c6d0cad6d3fc42543af0a48140ca46bd9520fc7bc2623be57666381fcbded0c90dfa            16494 main/binary-amd64/Packages.gz
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEExaYiiiiVh2W0KfztLUJe/8/U70cFAmr1RlEACgkQLUJe/8/U
+70erkw//Wr+YO5lPe4DS4+dvKn8rhZS7CED6YeMKZoHkomT9FO31+XfDYdKFGtVP
+4XctgS4dr2hW6P0p+nHlZXEHxf4d67DLjH9TGc1cskGoyYl5AaE5kGWB5vwPfoSj
+e5CDUrLGAs+sb1S50bxJSnAsh4p8wEOHVrCeJrUlkTheHREhM9u9aS69zdEQraBz
+c8wIhcz9lz0oH5BeMIfN37SMGyKU/12sHQ/PgtBK++oynPAUTbDZsGQrz3xKPIvn
+ziBCkaG4rwIml3bhTvY0jBuMag4nqo6WaSCXzGmqDezvQ1FyIGUv0wYcZGfEE/Nw
+c3nYtdMGI5l9KXkxXTP/o0gs+L19iuvA2DEPf6/31T5TpS2IQsoy5nQEFeNvvtz9
+oQ9aCH++otRpeX9WDEQLZvfvLGgl6iVaiHeibQZ6n30dmM0VtE5DXiExMvSN9rnk
+UxD434R9hnvgeLN0iVglBzEbQzU5N9sJPhGhw1KjUTULVeCZZjKaRs/7/311KTV6
+5PqJeD2LxtVHY/ETF5Dgn2DIALOILDIIDnXlIAO9bCjg+vnRtvJP+KzN2VsvqvOS
+yC9jvEVYbJVtzuCg+ifHQAY83eJWKt4hNoRiFLw/PbS1Wqge+FFUNGgfrj7kVLzM
+h44ucP3c9sRvqnfAzz4Gzjhx5wk6SPekKLyXPjQ4vCnWT9/kXFc=
+=tJnm
+-----END PGP SIGNATURE-----

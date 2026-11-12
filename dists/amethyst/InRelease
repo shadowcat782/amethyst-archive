@@ -4,37 +4,37 @@ Hash: SHA512
 Architectures: amd64 all
 Codename: amethyst
 Components: main
-Date: Thu, 12 Nov 2026 05:35:43 +0000
+Date: Thu, 12 Nov 2026 22:39:28 +0000
 Description: Amethyst Linux rolling repository
 Label: Amethyst
 Origin: Amethyst
 Suite: amethyst
 Version: 1.0
 MD5Sum:
- 0f300e33a71fa6d805457d5218661551            53619 main/binary-amd64/Packages
- b888d18c0187253ea453cac14e3fc3d4            16493 main/binary-amd64/Packages.gz
+ 8a20a3bd9877b8ab525497eaf07d8971            56914 main/binary-amd64/Packages
+ e3f71929eb26d4b0c50ecced482d928f            17428 main/binary-amd64/Packages.gz
 SHA1:
- 87d0403c92d9596640fcfab7897ac45b35a496e3            53619 main/binary-amd64/Packages
- 2f822d4154f6242f5c242ef7df0f4228c858e8b8            16493 main/binary-amd64/Packages.gz
+ de4b8be9b398ffd34ff19e77a2004f0364479007            56914 main/binary-amd64/Packages
+ 85e31d95577b2ac294c2ad90cbf5d66b4ec04bae            17428 main/binary-amd64/Packages.gz
 SHA256:
- 73641f038e901aa665a5c412027db4abd2cbd6c4e5989cc9f68e6ede6edc6c84            53619 main/binary-amd64/Packages
- c7b3139765dc2d3e071b518d3d66e561551cc42c20c9445b4ab9dd9d1305bf87            16493 main/binary-amd64/Packages.gz
+ 04656bed039392a68e6604cf3f27b7c242f6f7d997c97a3ee146bd11fd06af5a            56914 main/binary-amd64/Packages
+ 7c2572fb9d1c74e6ebab9d5bf43d2d8a49d41774146b841e5d85997ce5aa9cf3            17428 main/binary-amd64/Packages.gz
 SHA512:
- 5c59a69b9f5233f965061a2371c33cfb4a84ca230bbad13e076eb9b46a863b1c6bda3e2050412165851967674be36ecc89ef1ab7c7c64c15612ec36b80feca1b            53619 main/binary-amd64/Packages
- 362ee848f01fb1e3b39b85cc5bb5eb206a9e09a7aafcde2ff1cd86d0be00410d17c9337db8f09f545798439018b4bd7386884529e047c118f42d2655eea9d8f2            16493 main/binary-amd64/Packages.gz
+ 5504693b266b7faa978e88e6c057eff111daba6d5b819fcb8a49c08c55a6d77f1e7b6cff3ab974e3d57992aa0ae86ea84fc3859f247ca91561a34715562011b1            56914 main/binary-amd64/Packages
+ 232aee162178c5e3fae711220d98a4ace6e36277974e1a0fa6f28a9375f92626ded1ef6bbbef9cc96c4128ed779aca5e45b05c49a373b456e10ba8010ecb2f4d            17428 main/binary-amd64/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEExaYiiiiVh2W0KfztLUJe/8/U70cFAmr1UC8ACgkQLUJe/8/U
-70c6mg//TjLmUtEtjvYEYwLZZaLQVcm8J2ATKHuBeugopUHOFreCvqXD7bocUc8x
-ryC4lu+F108vogNS06pErGNTMY6BhoYq0zSuqw/3O6dI1JeH0abuDiv6kQiDgHMj
-fZli4fnTxWCNqSY47KhuzS97pohZnSxydFOmRscnUI6Mc+W60RyG87LB1EZCdAUy
-kBP81fBtrAbw1MXXhsaYwte8wWzL0++tQx+dnNBIE3ZbOksHOGrwVyTgPvruUu1I
-E0UWOqld+1aTCM0pY1OShjwyYgu1pN+YW1QuaFkn+yrcMxd7dLYq69je26ZBuKc2
-cKpkJ1Dc4SG7GZ8aH1BPenajTmiDrvudHzTNgiOGJFnBdpOitay+lSxuZyuIPOBQ
-BPIkR8V6Iw3w/XUOmIJ2oid0ytcw30+uM8pZMFUGx7HwqD0EmuXEgiwgyD45C43C
-fIeAMKhV7w8tn1v/vn3EQ9Twx38AL1fejd0G3WmwEKp7O2Nwz9injESLWpOrNM/e
-Do/VFxyUg5IoU4R/thq9hLxxEMcuuyzNvMlHxdNXfFdfOy3fVj+9mUBUiNAu5uQH
-cWExP1qg1UXogwaOUomQ46hDF58YteZ+XDApPOV5SRTkIbo3Fef+q3N9CMAQpC+E
-HJ8iaE/fg3M1Orvulpr+hUwPeBJqL2dbKbYqwvrRcDglYlu4ceU=
-=J2Sn
+iQIzBAEBCgAdFiEExaYiiiiVh2W0KfztLUJe/8/U70cFAmr2QCAACgkQLUJe/8/U
+70fmRw//d0s7gEp3BPgENoccFKnkh1e9KoWdbXcFesMJvWwscWIuHZbiE5clL2QP
+vXxxcz3NQ0R9aDBZCGv39OaKWn3kVln1eopIltHAxp40Uk6U6xWkSZejqCZ2828L
+0i8B7bf47t6QQFCeLkk/r7lL5mljhn5ifPClt4/EBB7WRvPNdlCMry2+Lb/JDVIm
+PODDfxXXfThsjzGw1V0WsWemQS+Xz/RGXS+1g4uDwipze+fh300z09RooHlTH/pc
+mClOvlgPfdDnzCwEOxQg4/vdpiLH9S7apJ8iKqcnoeBkAXa0maaA5AUW8PtlMyn4
+//dlz1NVy5XTcFGu+VOr6m1lO0d/uvGOtDhGttWitHn0UGNt9rm07CPb0ZDXNIqk
+JEwUgMOJbRMAT3RvLHFg63tY0hVMGgiStlXye9blFncS1H+CfBlRwl/3x2sScYVb
+XZavWWhJ4tf8OlCuEnhdCDcyKGDhIcIWGbPEB7PDg0KI2cFjwIL8GweyYiUh4hwH
+df2WArIogty4gjd0gppOoZbSxxWqghvyl0ioH1dXVuDW2C0Yo55Yvx0o9PXTrlT9
+WzyqfURWWLbhvetfYFpjVAlDobgrp1wgCUFJnxGr9fJBqc+xeEHJJhEEkLgIx8ka
+r7uuLJQ2JwCPpYgDUtV/Y0Nsx6g3xOFkosr8y4tavKpg8b105MY=
+=uJtI
 -----END PGP SIGNATURE-----

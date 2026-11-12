@@ -90,14 +90,14 @@ Priority: optional
 Section: metapackages
 Source: amethyst-core
 Maintainer: Amethyst Linux Developers <devel@amethystlinux.org>
-Installed-Size: 24
+Installed-Size: 40
 Depends: dconf-gsettings-backend | gsettings-backend
 Filename: pool/main/a/desktop-defaults/amethyst-desktop-defaults_1.0.0_all.deb
-Size: 3344
-MD5sum: f8ee63180e6ac3e8ede8ddc435058777
-SHA1: ec57d277a32b11af9adf8d1199fe2ff3bfe7e7b3
-SHA256: 0e6406b5a993c6e3cf5ef2be6969036f4b514b17c9cf0a5452709af0a0470f45
-SHA512: dcb9bbd63c173a07ddb2ee95c35d1bdda2f78cc4c2572d5caf7ac9b5e5817a76a6edcdf952a17be5ed6758f72dafae00e810f3dd9133f5246f82f75ad0eca651
+Size: 5464
+MD5sum: 7c7177f2f27aa3cea127f83d41018a45
+SHA1: 162b9f1aa2235ff7e812a9e7f98e952a67466c82
+SHA256: eb35b91814706e97d8a544560ee22485b9a97de7c66395ba498afb74ffda9a13
+SHA512: eea4e521f1b406354e680dd297bf2f78c8b5d2441f11f52ed2ea20559814cd648cd600df19206238ae7f26e48d8bc15133c029ea5f1a6c00a1a3e6e147d4b94b
 Homepage: https://amethystlinux.org/
 Description: Amethyst Linux desktop default settings
  This package ships the GSettings overrides, dconf profiles and GNOME
@@ -318,6 +318,54 @@ Description: Character Map (GNOME 3 Revitalized forward-port)
  Character Map, forward-ported from GNOME 3.38-era sources to build against
  modern Debian testing libraries as part of Amethyst's GNOME 3 Revitalized
  desktop. Epiphany/Web is not included; Firefox remains the browser.
+
+Package: amethyst-gnome-control-center-dbgsym
+Architecture: amd64
+Version: 3.38.6+amethyst1
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: amethyst-gnome-control-center
+Maintainer: Amethyst Linux Developers <devel@amethystlinux.org>
+Installed-Size: 5286
+Depends: amethyst-gnome-control-center (= 3.38.6+amethyst1)
+Filename: pool/main/a/gnome-control-center-dbgsym/amethyst-gnome-control-center-dbgsym_3.38.6+amethyst1_amd64.deb
+Size: 2202592
+MD5sum: 88a080f76c84d1165bec3cb1b366acb7
+SHA1: e3272cb1b2efb8f34b1082afa14b07ae911b7038
+SHA256: d1c5b6885336dac0aec92f94056b790d6f3dc8434fc67aa0396fc0273622b5b6
+SHA512: e934906b62938b1e92f866633fa0f8b47b1e047d40d4a17c3f3f57c0aa64c1ae4d50f0293a40293ad22b3896bd89c38470bcba3d5f537a860f8a36d30e26e774
+Description: debug symbols for amethyst-gnome-control-center
+Build-Ids: 37675ffa5589d99f7c8c25ca990d80633475a77d 71e155d729feb6da5e4e1caab65725edfee87954 b3341a8aad1590edbe164043a1f64b5c05fe4ffc df7e0c1c823ed878ba041155648017953964eb08
+
+Package: amethyst-gnome-control-center
+Architecture: amd64
+Version: 3.38.6+amethyst1
+Priority: optional
+Section: gnome
+Maintainer: Amethyst Linux Developers <devel@amethystlinux.org>
+Installed-Size: 20367
+Provides: gnome-control-center
+Depends: libaccountsservice1 (>= 26.27.3), libatk1.0-0t64 (>= 1.12.4), libc6 (>= 2.38), libcairo2 (>= 1.14.0), libcups2t64 (>= 1.7.0), libepoxy0 (>= 1.0), libfontconfig1 (>= 2.12.6), libgdk-pixbuf-2.0-0 (>= 2.25.2), libglib2.0-0t64 (>= 2.83.0), libgnome-desktop-3-21 (>= 51~alpha), libgsound0t64 (>= 1.0.1), libgtk-3-0t64 (>= 3.21.5), libgtop-2.0-11 (>= 2.22.3), libgudev-1.0-0 (>= 146), libhandy-1-0 (>= 0.82.0), libkrb5-3 (>= 1.8+dfsg), libmm-glib0 (>= 0.7.991), libnm0 (>= 1.24.0), libnma0 (>= 1.1.90), libpango-1.0-0 (>= 1.37.2), libpangocairo-1.0-0 (>= 1.18.0), libpolkit-gobject-1-0 (>= 0.99), libpulse-mainloop-glib0 (>= 0.99.1), libpulse0 (>= 0.99.1), libpwquality1 (>= 1.1.0), libsecret-1-0 (>= 0.7), libsmbclient0 (>= 2:4.0.3+dfsg1), libudisks2-0 (>= 2.0.0), libupower-glib3 (>= 0.99.8), libx11-6, libxi6 (>= 2:1.2.99.4), libxml2-16 (>= 2.14.1), dconf-gsettings-backend | gsettings-backend
+Conflicts: gnome-control-center, gnome-control-center-data
+Replaces: gnome-control-center, gnome-control-center-data
+Filename: pool/main/a/gnome-control-center/amethyst-gnome-control-center_3.38.6+amethyst1_amd64.deb
+Size: 5019228
+MD5sum: 2ee022470170ee0908ef9c2ae200f9ff
+SHA1: 84c2f1286bf4101c512d81b01c48735d448b5d3c
+SHA256: 40cdfe8f471f895a55cebf3b83e80d2f04fec6e56bd3240dcc0debac17bb21f7
+SHA512: 52ebc34714cc7a89e8cab1fdb2d78f96c040eb4a6b411cacd622395e821928fc0b3bfdeac2970d5bd313da7e51f86ec7f53b2d5320d81b7bfff7ca20650cf352
+Homepage: https://wiki.gnome.org/Apps
+Description: Settings (GNOME 3 Revitalized forward-port)
+ Settings, the control center, forward-ported from GNOME 3.38-era sources
+ to build against modern Debian testing libraries as part of Amethyst's
+ GNOME 3 Revitalized desktop.
+ .
+ The Color and Online Accounts panels are not built: the former requires
+ libsoup-2.4 (removed from Debian testing); the latter requires the GTK4
+ GOA provider API, which this GTK3 panel cannot use. The Bluetooth panel
+ is not built: modern gnome-bluetooth UI is GTK4-only. The Wacom panel is
+ not built: it relies on the long-removed gnome-rr API.
 
 Package: amethyst-gnome-disk-utility-dbgsym
 Architecture: amd64
@@ -592,13 +640,13 @@ Maintainer: Amethyst Linux Developers <devel@amethystlinux.org>
 Installed-Size: 1616
 Depends: amethyst-gnome-shell (= 3.38.6+amethyst1)
 Filename: pool/main/a/gnome-shell-dbgsym/amethyst-gnome-shell-dbgsym_3.38.6+amethyst1_amd64.deb
-Size: 1284072
-MD5sum: d4036870c309fc6bbf53ea0cf6988eb0
-SHA1: 15ec5a512d59b741f53d82d9685a8f09684e4465
-SHA256: b755d3654ff8288fbb4d19a47ad1ff7373838929cc1db7ffc37ea96b5008dc9a
-SHA512: 30aba7099b4d7efec5c9ceaa99f88c97e5fb46fb8aeb99efc50cb4b9206440a28cda2d25ed53a0ef6c77bb71c9e2e2457287fe67adfb4022023e27930bb7d00a
+Size: 1283980
+MD5sum: cb4c83ab76444ae687448e986478a01b
+SHA1: 8178a5dfffc7f539806ae6122d1721e9ff32a3ca
+SHA256: 7fb6558f13b990b1e72d33c75f551ca1fc3e0cf1a0a2b125e3b077356b122d51
+SHA512: 1d5879008caf0e36e6830524beb0c6ef1e05855b299beeff4c795a4e488186af488e15421aa0e548da950b25dc82f3a7f1f999ac1cc738c6dba48bffa99bfe0b
 Description: debug symbols for amethyst-gnome-shell
-Build-Ids: 009cfa282ad9bd790d51159a00f04094b31966c5 225d8ec07d2624f687eb5ccc45481e27ad5fde69 23726a516a3aa78bb237fe0ee162af11c4db8fac 73e58c4ca118059e4f9b2ccc83bb7fe9c8de1552 883e678c85f1e32bb8c4b6736e0a4ccc6bb52e23 98d9a1a7feb857ec53ba8f5a4dc6ccf7f2f478cc a3d670fc70d4108488b6519ed5db87f16b068f8d dcf0837eb9a8b59d627b81dded494e8e84238e12 df982fae5796d40c876f7935598dd16961557ac0 f64b6d50dec366a57562a2188b23005119fcf8b2 faa194e07e3849de90d79f22621475de510f19e3
+Build-Ids: 009cfa282ad9bd790d51159a00f04094b31966c5 225d8ec07d2624f687eb5ccc45481e27ad5fde69 23726a516a3aa78bb237fe0ee162af11c4db8fac 73e58c4ca118059e4f9b2ccc83bb7fe9c8de1552 883e678c85f1e32bb8c4b6736e0a4ccc6bb52e23 93e5f803b842e0ad19ae7f963bf7da25928053f9 98d9a1a7feb857ec53ba8f5a4dc6ccf7f2f478cc a3d670fc70d4108488b6519ed5db87f16b068f8d dcf0837eb9a8b59d627b81dded494e8e84238e12 df982fae5796d40c876f7935598dd16961557ac0 f64b6d50dec366a57562a2188b23005119fcf8b2
 
 Package: amethyst-gnome-shell-extensions
 Architecture: amd64
@@ -640,11 +688,11 @@ Conflicts: gnome-shell, gnome-shell-common
 Breaks: mutter-common (<< 3.38.6+amethyst1)
 Replaces: gnome-shell, gnome-shell-common, mutter, mutter-common
 Filename: pool/main/a/gnome-shell/amethyst-gnome-shell_3.38.6+amethyst1_amd64.deb
-Size: 1416396
-MD5sum: 562cd290a92b4d321e96bceccac77b8f
-SHA1: 85f01b9cc0ac2a47d4aed4e513fb837a4ebc5305
-SHA256: 6c32990ac09b65558b488d4f18c95ee1dba271bd125e12a714edfe1c93d95b66
-SHA512: 6586a259ac41c03fade8c6a525d5eb7461be1a5e225a328fc760e538997fc649ef6a6684cefbb8bf30b8e531102a06c16df534750b58ca08a9af244ed6aedce8
+Size: 1417208
+MD5sum: 9359e97873d234f3f1c938d47cd6d82b
+SHA1: a915de9f919adec5a65e14d33160a6325bd10206
+SHA256: f60a310fbb35f19ee0a59d22f69ed9316fe6296ae4d7458834bdcaac41378782
+SHA512: d9caf48398aa2ba168612a095e7c23ea31387d3f5cc0bb946e5b11d2e9fee223af55b763e1c09166bd16c4a4738bb58fca9464e23cf42e0a4341d1e7d8cfbe97
 Homepage: https://amethystlinux.org/
 Description: GNOME Shell for Amethyst Linux (GNOME 3 Revitalized)
  The GNOME Shell 3.38.6 forward-port for Amethyst Linux, built against
@@ -771,13 +819,13 @@ Priority: optional
 Section: metapackages
 Source: amethyst-core
 Maintainer: Amethyst Linux Developers <devel@amethystlinux.org>
-Installed-Size: 97
+Installed-Size: 99
 Filename: pool/main/a/installer/amethyst-installer_1.0.0_all.deb
-Size: 51764
-MD5sum: 7b621c927284883578652c30b182fce2
-SHA1: 9dce3fd963d8423fd33084a460c817c7d42ddbd5
-SHA256: 0cb2bcf42b9881918df9da30bff99b395ac4090b54cbed6356df02113c2ffbe7
-SHA512: 0de21c292719e9642124d5d0d8cb9efe420d0e94d8d5bce25104e5c14b455c78d1c199e1a9137e9ab598b31619f7be6db0f804e7804eee63cae29bfa0c7a46aa
+Size: 51920
+MD5sum: 294d18e102851962e05ce1abeab8c978
+SHA1: 2513003f2c3446db9aaa3c0f6c1d0534d5f5c503
+SHA256: 79deea6f226f787d5fd6875dd0b79d012f4fc86a77f31e8bd6a68fb7a2689539
+SHA512: 60b6a48d2a8058e44c339170ddafbf70ee0fa20625920daeeb8407a2365e2d3b3f6522c5576fcc4fe2130c7a4f51577b510aa2d699f1a59f3ff4a917104686e5
 Homepage: https://amethystlinux.org/
 Description: Amethyst Linux live installer integration (Calamares)
  This package ships the Calamares installer configuration, branding and
@@ -790,13 +838,13 @@ Priority: optional
 Section: metapackages
 Source: amethyst-core
 Maintainer: Amethyst Linux Developers <devel@amethystlinux.org>
-Installed-Size: 17
+Installed-Size: 22
 Filename: pool/main/a/live-config/amethyst-live-config_1.0.0_all.deb
-Size: 2284
-MD5sum: b73a837385550ff82a1bd5d63e8a9770
-SHA1: 0359cb60ead5e914a859a68680465686ed6617b0
-SHA256: db686f4937868d9bba380b6d3919dd104af57a979e8c0b24707492bdf0bd8d92
-SHA512: 8a65bc64ec30f1959e43711904dddc7381598fa3a6a28085bf6890ec4a10b7f71ed3704084cfa47726c696978bb78838745d40f71b05ce3a095dca47c97d4368
+Size: 2712
+MD5sum: 2770e6ce0ae51f41cf0bb4e7bcb5a069
+SHA1: 83c1789134a3352935c99be5a338fa3d1c2199ba
+SHA256: 9b92b42341f9daf9b88800fc5596d3b8ec5ce3746cf056140fa7e6e43d87fc96
+SHA512: 2d4238fa685dba204ab72df2179d6139677696e366c656439677b2cce4fc9d1de9eb9f68d8d27f19e35eca9e308683376e070d16907f1ccde48470bd6095a2d3
 Homepage: https://amethystlinux.org/
 Description: Amethyst Linux live session configuration
  This package ships the live session user configuration (autologin user,
@@ -938,14 +986,14 @@ Priority: optional
 Section: metapackages
 Source: amethyst-core
 Maintainer: Amethyst Linux Developers <devel@amethystlinux.org>
-Installed-Size: 24
+Installed-Size: 25
 Depends: gir1.2-gtk-3.0, python3-gi, python3-gi-cairo
 Filename: pool/main/a/welcome/amethyst-welcome_1.0.0_all.deb
-Size: 7520
-MD5sum: ca93f036c5fd149f9084c06e320b6caa
-SHA1: e5632234238a4b6cd4dc763fb07eb274c1fe9575
-SHA256: aba7b7a18bebf05c733801c9919d0ed9dee2106a7aac56f548750e6f7a99e657
-SHA512: 5fc330bc06409c3dc2de39512a969f1b225eefd688f80d2882fb336697621a1626ff97e166ac53864451106511979cab6789ceda8091de57dad14a8186b3574a
+Size: 7616
+MD5sum: 3dcca3cb37fbceaa640663be090f2c32
+SHA1: 096b1c0e1f764631e1de0f6044a05bd9945c4326
+SHA256: fdf06b03161e128f759e3402b87b48bfee6ec47fa0484ea96bab6e90b71c9ed9
+SHA512: 24998b52ceb11e334bbd96f6ee351ebc572590a59fce54d6fa79a1f55def1c8845b01c7211e12154374307cb897917371b988b1a4c07df949c218651d86c14d4
 Homepage: https://amethystlinux.org/
 Description: Amethyst Linux welcome application
  A small GTK 3 application shown on first boot describing the system and

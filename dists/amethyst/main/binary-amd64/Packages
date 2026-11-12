@@ -93,11 +93,11 @@ Maintainer: Amethyst Linux Developers <devel@amethystlinux.org>
 Installed-Size: 40
 Depends: dconf-gsettings-backend | gsettings-backend
 Filename: pool/main/a/desktop-defaults/amethyst-desktop-defaults_1.0.0_all.deb
-Size: 5464
-MD5sum: 7c7177f2f27aa3cea127f83d41018a45
-SHA1: 162b9f1aa2235ff7e812a9e7f98e952a67466c82
-SHA256: eb35b91814706e97d8a544560ee22485b9a97de7c66395ba498afb74ffda9a13
-SHA512: eea4e521f1b406354e680dd297bf2f78c8b5d2441f11f52ed2ea20559814cd648cd600df19206238ae7f26e48d8bc15133c029ea5f1a6c00a1a3e6e147d4b94b
+Size: 5456
+MD5sum: 50671b5f2d9ffe6257c9540540752439
+SHA1: 5c8c52dfa58560ad2a627db9856f4983a71a70f3
+SHA256: 21d8098989e258afbf71bdeb55b003ac3039337d55815623810d0224540e95cc
+SHA512: 4cdfd067d130249d67ef08336b574a0912ea4f61ed6e02c23fee471558c39cac98b3f583ae8d5861cc58225ba2183c41d0a0f67067cefb697de7395fd5b17d7f
 Homepage: https://amethystlinux.org/
 Description: Amethyst Linux desktop default settings
  This package ships the GSettings overrides, dconf profiles and GNOME

@@ -69,11 +69,11 @@ Source: amethyst-core
 Maintainer: Amethyst Linux Developers <devel@amethystlinux.org>
 Installed-Size: 23
 Filename: pool/main/a/base-files/amethyst-base-files_1.0.0_all.deb
-Size: 3224
-MD5sum: a12430ede5c3f6e113304eaa579aa037
-SHA1: 8dca6320c08a2dcad3bfccd7a97dc650fb6941ff
-SHA256: c9bbff2d469657ddce37ff2c00e19e6ca50442fcde2019f48fc247f173b8cd63
-SHA512: f73e356f2d3f2ec742bf81ac45996f7c2e3690a9e9de82c6dcdb83acbeefda723878aee15412536a4260b81d5e651b82d0efe28a8f67430b36e6e2b8c3eb8e13
+Size: 3180
+MD5sum: 2a24ef1aa127d8de2a4b2ac208ee78d8
+SHA1: f5bf7790c83b74398050cb8ddd6340243c414d39
+SHA256: 9eecd4df578d17960a44125c721fddfe997da788ff612ccaeb17cf614b4eb051
+SHA512: cd4c6fb9542bbaef358cc1713d63f052ed5e1a1ee2350138d2c4c8a47cda310821a9dc0ac5dba608dc0fbadec07f9a5ed9988fb595d4f271af792d315ca389cf
 Homepage: https://amethystlinux.org/
 Description: base files for Amethyst Linux (Debian testing base layer)
  This package installs the base identity files of Amethyst Linux: the

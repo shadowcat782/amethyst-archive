@@ -90,14 +90,14 @@ Priority: optional
 Section: metapackages
 Source: amethyst-core
 Maintainer: Amethyst Linux Developers <devel@amethystlinux.org>
-Installed-Size: 40
+Installed-Size: 45
 Depends: dconf-gsettings-backend | gsettings-backend
 Filename: pool/main/a/desktop-defaults/amethyst-desktop-defaults_1.0.0_all.deb
-Size: 5560
-MD5sum: 6fe098fb03a47a01f8d1ea0a06bb5b02
-SHA1: 2102cb595f9a4bbf31a3f3ec61e95308a1c1099f
-SHA256: 859df75177d0ad27191ac9ab73ddb1332a181305e739b7920185ea9b60b5151e
-SHA512: 751a6fe38498547997ae99a09378f2d6e17a928b88c087f4d5ca1d175c84b8e772d48701e15e540f1cc47de3bc29c2587c2e164f0e7ce1bb596a253d568afc4e
+Size: 6036
+MD5sum: 8cb2896783a162771db037a9dd3a17e7
+SHA1: 2e72fd958c93db42dba40f443a82fda027a3cad5
+SHA256: 5a1ddcd071173f611b87b1500a9613da867c80366af1d15c20fb89f5dc4465f7
+SHA512: ed76770398cb1e194e1584d680c6667d97f612d5f0d1c2fc805751453a977ce6c1f24e930fe26cdbcea8ad6a647e54de2df49df35ec091b542028997aee36279
 Homepage: https://amethystlinux.org/
 Description: Amethyst Linux desktop default settings
  This package ships the GSettings overrides, dconf profiles and GNOME

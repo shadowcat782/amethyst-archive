@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Amethyst Linux — Debian testing rolling with GNOME 3 Revitalized</title>
+<meta name="description" content="Amethyst Linux is a desktop-only rolling-release distribution built on Debian testing, shipped with GNOME 3 Revitalized (GNOME 3.38 forward-port).">
+<link rel="icon" type="image/png" href="amethyst-logo.png">
+<style>
+  :root {
+    --bg-0: #17101f;
+    --bg-1: #2a1b3d;
+    --bg-2: #44318d;
+    --accent: #8e54e9;
+    --accent-hi: #e0c3fc;
+    --text: #f0e9f8;
+    --muted: #b8a9cc;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    background: radial-gradient(ellipse 120% 80% at 70% -10%, var(--bg-2) 0%, var(--bg-1) 45%, var(--bg-0) 100%);
+    color: var(--text);
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 3rem 1.5rem;
+  }
+  main {
+    max-width: 46rem;
+    width: 100%;
+  }
+  header {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  .logo {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 1.25rem;
+    flex-shrink: 0;
+    box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.45);
+  }
+  h1 {
+    font-size: 2.2rem;
+    margin: 0 0 0.25rem 0;
+    letter-spacing: 0.01em;
+  }
+  .tagline {
+    color: var(--accent-hi);
+    font-size: 1.05rem;
+    margin: 0;
+  }
+  section {
+    background: rgba(23, 16, 31, 0.55);
+    border: 1px solid rgba(224, 195, 252, 0.18);
+    border-radius: 0.75rem;
+    padding: 1.25rem 1.5rem;
+    margin-bottom: 1.25rem;
+  }
+  h2 {
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--accent-hi);
+    margin: 0 0 0.75rem 0;
+  }
+  p { margin: 0 0 0.75rem 0; }
+  a { color: var(--accent-hi); }
+  code, pre {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 0.4rem;
+  }
+  code { padding: 0.1em 0.4em; font-size: 0.9em; }
+  pre {
+    padding: 0.75rem 1rem;
+    overflow-x: auto;
+    font-size: 0.85rem;
+    border: 1px solid rgba(224, 195, 252, 0.15);
+  }
+  .nav {
+    display: flex;
+    gap: 1.25rem;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+  }
+  .nav a {
+    text-decoration: none;
+    border: 1px solid rgba(224, 195, 252, 0.3);
+    border-radius: 0.5rem;
+    padding: 0.4rem 0.9rem;
+  }
+  .nav a:hover { border-color: var(--accent-hi); }
+  footer {
+    color: var(--muted);
+    font-size: 0.85rem;
+    margin-top: 1.5rem;
+  }
+</style>
+</head>
+<body>
+<main>
+
+  <header>
+    <picture>
+      <source type="image/svg+xml" srcset="amethyst-logo.svg">
+      <img class="logo" src="amethyst-logo.png" alt="Amethyst Linux logo">
+    </picture>
+    <div>
+      <h1>Amethyst Linux</h1>
+      <p class="tagline">Debian testing rolling, desktop-only, with GNOME&nbsp;3 Revitalized.</p>
+    </div>
+  </header>
+
+  <section>
+    <h2>Package repository</h2>
+    <p>Amethyst Linux packages (the <code>amethyst-*</code> desktop and G3R stack) are served from this static site. Add it as a second APT source alongside Debian <code>testing</code>:</p>
+    <pre>Types: deb
+URIs: https://shadowcat782.github.io/amethyst-archive/
+Suites: amethyst
+Components: main
+Signed-By: /usr/share/keyrings/amethyst-archive-keyring.gpg</pre>
+    <p>Download the archive keyring: <a href="amethyst-archive-keyring.gpg">amethyst-archive-keyring.gpg</a>, then save it as <code>/usr/share/keyrings/amethyst-archive-keyring.gpg</code>.</p>
+    <p>The repository is GPG-signed; <a href="dists/amethyst/InRelease">InRelease</a> verifies against the shipped keyring on every install or update.</p>
+  </section>
+
+  <section>
+    <h2>About</h2>
+    <p>Amethyst Linux is a rolling (<code>testing</code>) desktop distribution with <strong>GNOME 3 Revitalized</strong> — a forward-port of the GNOME 3.38 desktop stack to current Debian testing libraries. Firefox is the browser; Steam is preinstalled but removable. It ships as a live image for BIOS and UEFI hardware.</p>
+    <div class="nav">
+      <a href="https://github.com/shadowcat782/amethyst-linux">Source &amp; documentation</a>
+      <a href="https://github.com/shadowcat782/amethyst-archive">This repository (git)</a>
+      <a href="https://github.com/shadowcat782/amethyst-linux/blob/main/live/live-image-amd64.hybrid.iso.sha256">Latest image checksum</a>
+    </div>
+  </section>
+
+  <footer>
+    Amethyst Linux · Debian <code>testing</code> rolling · Public APT mirror · Static content, no upload access
+  </footer>
+
+</main>
+</body>
+</html>

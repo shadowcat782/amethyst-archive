@@ -1,21 +1,21 @@
 Architectures: amd64 all
 Codename: amethyst
 Components: main
-Date: Fri, 13 Nov 2026 19:18:51 +0000
+Date: Fri, 13 Nov 2026 19:46:02 +0000
 Description: Amethyst Linux rolling repository
 Label: Amethyst
 Origin: Amethyst
 Suite: amethyst
 Version: 1.0
 MD5Sum:
- 7ee288a6c7e304d8cd0e17526cf89bca            63164 main/binary-amd64/Packages
- 4091468d34eb95b9a0eff8c86cca4c59            19905 main/binary-amd64/Packages.gz
+ 1a617fa3427b1698db669e1c119096a9            71449 main/binary-amd64/Packages
+ df5eaa0c1f4cbb61ddf5c75c783ccce1            21690 main/binary-amd64/Packages.gz
 SHA1:
- 363e6f5b20f0eeebddedd753238fa0188b3cb74c            63164 main/binary-amd64/Packages
- 2820af8e8b11b282a8bf09c74a620adf7d59f9f1            19905 main/binary-amd64/Packages.gz
+ a38e5f291d64746cf326e0819749bcad267b1d00            71449 main/binary-amd64/Packages
+ 996ad661a5d331f235f73fc596a357d12e8ef1dc            21690 main/binary-amd64/Packages.gz
 SHA256:
- 3691b7fcabf5fd802f545433c3ded18fd2a470618cd5f962126568dfab8b269f            63164 main/binary-amd64/Packages
- 8c2bde910d11ca72e726a97d9f4a8cefea2ccc8f66f5a78a7a15205b4bc6acb4            19905 main/binary-amd64/Packages.gz
+ b02091885887cfd5f62eb9e98ab1b331423351abe90536566aedc835df7afe15            71449 main/binary-amd64/Packages
+ ae96a6502d80aefa731887f77f7e32278e8e89bbcf53fb1b35388c979f71a17b            21690 main/binary-amd64/Packages.gz
 SHA512:
- 5d757f5f49056ef39afa6b25ea7eff58fbc2898f27e85508cb21fe972cf2d03fb1541a3274b54ea3a825de4bedbe52e3e856c1cb2a38847de51d2a68f602a490            63164 main/binary-amd64/Packages
- 80b1b5f6aad4f8fe50b7e594273a2caaa4ac2936b9327481a28b0229d8635138fc139dd7e99ba859260a1b93a925daeff826f8f7bd01041874091540cf718960            19905 main/binary-amd64/Packages.gz
+ 6c51aa9b087c50bf9522b638291e7ee0d0310959d510c2679c780d909b9d357ca626b8e31382be7084bee5eadfc75a3202d2d6c565d1fbcc6f45860dcd66ebef            71449 main/binary-amd64/Packages
+ 4dbaaf2c35d484e1557053d8e1bdeb1374bab2c9b9f67f2477089c7c5f24e20d87d166e63659aa2d73ca6be34bc0250048563dd2ae113ad245ab85188c8c93cd            21690 main/binary-amd64/Packages.gz

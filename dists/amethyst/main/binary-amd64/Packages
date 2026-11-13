@@ -354,16 +354,16 @@ Priority: optional
 Section: debug
 Source: amethyst-gnome-control-center
 Maintainer: Amethyst Linux Developers <devel@amethystlinux.org>
-Installed-Size: 5301
+Installed-Size: 5302
 Depends: amethyst-gnome-control-center (= 3.38.6+amethyst2)
 Filename: pool/main/a/gnome-control-center-dbgsym/amethyst-gnome-control-center-dbgsym_3.38.6+amethyst2_amd64.deb
-Size: 2210992
-MD5sum: 2be73af3e9d1961552926c514d2e5f70
-SHA1: 889799da37ad326691adfbf03b4a70f472873ed1
-SHA256: e77cc3a57e070f17e6bcb32a11698d8951eee58bae371eef7efe055aca57ffe7
-SHA512: 8eb76d7a7fbc0da61f2a0d90ac37a3bf0a7266310c1366ae177831068edb384bbdb1d4afe47207dec3a6ef5aaa49319cba1ebe7bbe7e8f45edacd063938ed77a
+Size: 2212388
+MD5sum: 96b2b8c1502a2a016182253fe5e85a7e
+SHA1: f423de6d3e8d87909d6f53572d7c64abc891e1c4
+SHA256: cbda7b0891a77adff1cb76d57f202c5b336b8de1ddc890ae303656fdae613e5a
+SHA512: 903acb819412d52c908ff4950d8dca63073b46d86e0e43bcaad8dcd943b031f0772c1e9fae11c3a4c7d9be2182b3aa6777174a9fa374f8de36244640f064f08c
 Description: debug symbols for amethyst-gnome-control-center
-Build-Ids: 37675ffa5589d99f7c8c25ca990d80633475a77d 8300554cc3f363fed6dc63dba94e2ecbb4e79c82 ae12ae0f76c006b872a366036d003155cadc70de b3341a8aad1590edbe164043a1f64b5c05fe4ffc
+Build-Ids: 37675ffa5589d99f7c8c25ca990d80633475a77d 43ce9ffeebbac104749442f06edb822eb57e86f2 ae12ae0f76c006b872a366036d003155cadc70de b3341a8aad1590edbe164043a1f64b5c05fe4ffc
 
 Package: amethyst-gnome-control-center
 Architecture: amd64
@@ -377,11 +377,11 @@ Depends: libaccountsservice1 (>= 26.27.3), libatk1.0-0t64 (>= 1.12.4), libc6 (>=
 Conflicts: gnome-control-center, gnome-control-center-data
 Replaces: gnome-control-center, gnome-control-center-data
 Filename: pool/main/a/gnome-control-center/amethyst-gnome-control-center_3.38.6+amethyst2_amd64.deb
-Size: 5024216
-MD5sum: 730edc75a35e2d42f040d7af9edd6e5b
-SHA1: 1cf1d91083f87b4cded532bafc9eb751b8a2cd49
-SHA256: 3b78a1d74913c8a5836f9563ef2fdcc5b4d43ad0dc37b83a7926eacb9b621c4d
-SHA512: 231d4d6951a95469748c1c78f302f01a636cf693dff758cb4555b21322f04be56fc947d8e5623c47358511a24a63bdf39fb8626f5d7aedb8316a23e736980acf
+Size: 5022768
+MD5sum: 66ebd440e8dc25ee6633437e3b6e17a7
+SHA1: 50c87c50c1ab14c4802438f22e65dc74c73c2936
+SHA256: aec28173e1fa6923e28980735a94a39ded64877f96dce283edf8aefbe0fe2da8
+SHA512: 112c03db55082b1d644d3247edaeba948d8029f46fd09e3482e9acc3b49df91393eb98c6ccb4b59d807886caa6eb355d97e16cf5955d66b546ad2e4e1280f8ea
 Homepage: https://wiki.gnome.org/Apps
 Description: Settings (GNOME 3 Revitalized forward-port)
  Settings, the control center, forward-ported from GNOME 3.38-era sources

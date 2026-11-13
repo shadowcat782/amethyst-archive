@@ -821,11 +821,11 @@ Source: amethyst-core
 Maintainer: Amethyst Linux Developers <devel@amethystlinux.org>
 Installed-Size: 215
 Filename: pool/main/a/installer/amethyst-installer_1.0.0_all.deb
-Size: 156192
-MD5sum: b3c86672b75a42b2aac48774ccf5b8eb
-SHA1: 0963ee6002da117e58c870f9761a8a637b072a41
-SHA256: 1a96ced16c36f8220dd1b93221cd8cd6f8d326ad31948b9a1cbd703c04a10a0f
-SHA512: df675b59f016545d1623b72a09a71bc57ba87aec17af08e685e6d2518719bed7eb1b23dfd39467ff42d386f3e2eecdfdb3c2c46e9be8e6f1fd54caf5410448a8
+Size: 156212
+MD5sum: eeaf05879d45aafcbea4588fb239ae60
+SHA1: 19b5d2cdf5b88daac04433ef9aadc0e54d7ad015
+SHA256: ca00771d23bbc86b8e9ca393905ce48d412a7cd4e778fe0e2129f8e7c4f70f16
+SHA512: d73c5297d352198b1fb65c08cf95bb60bc9547d8e6d8a12603a249bd3d9a6855fd2bd768e4c53712ce07404dfbbce3315f1348fe55ad94fea7b142ce8237b4a3
 Homepage: https://amethystlinux.org/
 Description: Amethyst Linux live installer integration (Calamares)
  This package ships the Calamares installer configuration, branding and

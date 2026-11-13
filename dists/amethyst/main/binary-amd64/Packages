@@ -1,24 +1,29 @@
 Package: amethyst-adwaita-themes
 Architecture: all
-Version: 3.24.43+amethyst1
+Version: 3.24.43+amethyst2
 Priority: optional
 Section: x11
 Maintainer: Amethyst Linux Developers <devel@amethystlinux.org>
-Installed-Size: 766
-Filename: pool/main/a/adwaita-themes/amethyst-adwaita-themes_3.24.43+amethyst1_all.deb
-Size: 151992
-MD5sum: 079c390ad29b86d6140913420b318644
-SHA1: 7defbc7386ff115ff74c0ef966347fa2db158d02
-SHA256: c8179c6e8e4b6a9524359579b5b760ff96ba51b116573d9e0c861ced4fc4d9e4
-SHA512: d25afbfd775d159ae355751c84d52be12c5379d7b26ab6695794de1a8cfba1ab67d1624768e6df7894c2a1c7d96863fa1fb2429b5771e860705233a3977ec531
+Installed-Size: 772
+Filename: pool/main/a/adwaita-themes/amethyst-adwaita-themes_3.24.43+amethyst2_all.deb
+Size: 152412
+MD5sum: c6ac38db2635a9ff98d6fd0b1b174283
+SHA1: bc0a7bb5fdfc5e118ca37b6053e23a49f08d3848
+SHA256: 701c5387c01045d0157a6eec8fecd175f84da1cd88405e42b2c7ac6ba585f879
+SHA512: b58948c4b22287a04cc800f77aed8c28af3396b1c29fbe90593e24dc54f6bbad78076a745f5c81adf0f1ff5d56d45e17ae2f175578a6a098cc5db4bb017e8bff
 Homepage: https://gtk.org
-Description: Adwaita and Adwaita-dark GTK3 themes
+Description: Adwaita and Adwaita-dark GTK3 themes (accent-parameterized)
  Vendored Adwaita and Adwaita-dark GTK3 themes, taken from the GTK+ 3.24.43
- source (the pre-generated CSS found in gtk/theme/Adwaita). GTK3 ships its
- Adwaita theme compiled into libgtk-3, so the themes are not file-visible and
- are not listed by theme choosers; this package installs the file-based
- variants so that "Adwaita-dark" can be selected with tools such as Tweaks.
- Selecting "Adwaita" itself behaves exactly as the stock built-in theme.
+ source (the pre-generated CSS found in gtk/theme/Adwaita) and parameterized
+ for accent colors (named @accent_bg_color/@accent_color with shade()/mix()
+ derivations). GTK3 ships its Adwaita theme compiled into libgtk-3, so the
+ themes are not file-visible and are not listed by theme choosers; this
+ package installs the file-based variants so that "Adwaita-dark" can be
+ selected with tools such as Tweaks, and so that a user CSS override such as
+ @define-color accent_bg_color <hex> re-themes every accent use (selection,
+ switches, checkboxes, suggested buttons, links) at once. Selecting
+ "Adwaita" itself behaves exactly as the stock built-in theme until an
+ accent override is present.
 
 Package: amethyst-archive-keyring
 Architecture: all
@@ -343,40 +348,40 @@ Description: Character Map (GNOME 3 Revitalized forward-port)
 
 Package: amethyst-gnome-control-center-dbgsym
 Architecture: amd64
-Version: 3.38.6+amethyst1
+Version: 3.38.6+amethyst2
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: amethyst-gnome-control-center
 Maintainer: Amethyst Linux Developers <devel@amethystlinux.org>
-Installed-Size: 5286
-Depends: amethyst-gnome-control-center (= 3.38.6+amethyst1)
-Filename: pool/main/a/gnome-control-center-dbgsym/amethyst-gnome-control-center-dbgsym_3.38.6+amethyst1_amd64.deb
-Size: 2202592
-MD5sum: 88a080f76c84d1165bec3cb1b366acb7
-SHA1: e3272cb1b2efb8f34b1082afa14b07ae911b7038
-SHA256: d1c5b6885336dac0aec92f94056b790d6f3dc8434fc67aa0396fc0273622b5b6
-SHA512: e934906b62938b1e92f866633fa0f8b47b1e047d40d4a17c3f3f57c0aa64c1ae4d50f0293a40293ad22b3896bd89c38470bcba3d5f537a860f8a36d30e26e774
+Installed-Size: 5297
+Depends: amethyst-gnome-control-center (= 3.38.6+amethyst2)
+Filename: pool/main/a/gnome-control-center-dbgsym/amethyst-gnome-control-center-dbgsym_3.38.6+amethyst2_amd64.deb
+Size: 2211060
+MD5sum: 3240402cbbde528c1050c52c79a09d16
+SHA1: 0e48070101798a8d8e36a7ccfa7195492576596c
+SHA256: bf619a5de8a5f5dd8889c9760d331cf1b4ba18b6ec66ed5fe5e8df97cfdbf898
+SHA512: 981c12e49b3f26537200c83a6d33de5c301bfd48adc80b809805bff7ad38c782e530fb276bd9d28b05ff84708d8da1bbfea458e0af69f1d4d69291b05bd6b49f
 Description: debug symbols for amethyst-gnome-control-center
-Build-Ids: 37675ffa5589d99f7c8c25ca990d80633475a77d 71e155d729feb6da5e4e1caab65725edfee87954 b3341a8aad1590edbe164043a1f64b5c05fe4ffc df7e0c1c823ed878ba041155648017953964eb08
+Build-Ids: 087d82587900ffeca8f3ddf9f60499dbe4d6f2c6 37675ffa5589d99f7c8c25ca990d80633475a77d ae12ae0f76c006b872a366036d003155cadc70de b3341a8aad1590edbe164043a1f64b5c05fe4ffc
 
 Package: amethyst-gnome-control-center
 Architecture: amd64
-Version: 3.38.6+amethyst1
+Version: 3.38.6+amethyst2
 Priority: optional
 Section: gnome
 Maintainer: Amethyst Linux Developers <devel@amethystlinux.org>
-Installed-Size: 20367
+Installed-Size: 20373
 Provides: gnome-control-center
 Depends: libaccountsservice1 (>= 26.27.3), libatk1.0-0t64 (>= 1.12.4), libc6 (>= 2.38), libcairo2 (>= 1.14.0), libcups2t64 (>= 1.7.0), libepoxy0 (>= 1.0), libfontconfig1 (>= 2.12.6), libgdk-pixbuf-2.0-0 (>= 2.25.2), libglib2.0-0t64 (>= 2.83.0), libgnome-desktop-3-21 (>= 51~alpha), libgsound0t64 (>= 1.0.1), libgtk-3-0t64 (>= 3.21.5), libgtop-2.0-11 (>= 2.22.3), libgudev-1.0-0 (>= 146), libhandy-1-0 (>= 0.82.0), libkrb5-3 (>= 1.8+dfsg), libmm-glib0 (>= 0.7.991), libnm0 (>= 1.24.0), libnma0 (>= 1.1.90), libpango-1.0-0 (>= 1.37.2), libpangocairo-1.0-0 (>= 1.18.0), libpolkit-gobject-1-0 (>= 0.99), libpulse-mainloop-glib0 (>= 0.99.1), libpulse0 (>= 0.99.1), libpwquality1 (>= 1.1.0), libsecret-1-0 (>= 0.7), libsmbclient0 (>= 2:4.0.3+dfsg1), libudisks2-0 (>= 2.0.0), libupower-glib3 (>= 0.99.8), libx11-6, libxi6 (>= 2:1.2.99.4), libxml2-16 (>= 2.14.1), dconf-gsettings-backend | gsettings-backend
 Conflicts: gnome-control-center, gnome-control-center-data
 Replaces: gnome-control-center, gnome-control-center-data
-Filename: pool/main/a/gnome-control-center/amethyst-gnome-control-center_3.38.6+amethyst1_amd64.deb
-Size: 5019228
-MD5sum: 2ee022470170ee0908ef9c2ae200f9ff
-SHA1: 84c2f1286bf4101c512d81b01c48735d448b5d3c
-SHA256: 40cdfe8f471f895a55cebf3b83e80d2f04fec6e56bd3240dcc0debac17bb21f7
-SHA512: 52ebc34714cc7a89e8cab1fdb2d78f96c040eb4a6b411cacd622395e821928fc0b3bfdeac2970d5bd313da7e51f86ec7f53b2d5320d81b7bfff7ca20650cf352
+Filename: pool/main/a/gnome-control-center/amethyst-gnome-control-center_3.38.6+amethyst2_amd64.deb
+Size: 5022776
+MD5sum: 00dbf40265322a1b796a7ae9c1edf8f8
+SHA1: 7cafd5502902cf2d9e08929c3425da11c777ab23
+SHA256: 40152ad7726e0e8fd4928c7d0b2906b51bd6419dba18c85e8e9e2bd840884ebc
+SHA512: 19cc4914dfd986c8bd4d0f0cf8e84428e9aea06d3ba0988afdf9400294a38f2fd7cae7385b481082e699cd33239295ced2f873930aede2a3405b971254c58194
 Homepage: https://wiki.gnome.org/Apps
 Description: Settings (GNOME 3 Revitalized forward-port)
  Settings, the control center, forward-ported from GNOME 3.38-era sources

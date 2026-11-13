@@ -784,6 +784,29 @@ Description: Terminal (GNOME 3 Revitalized forward-port)
  modern Debian testing libraries as part of Amethyst's GNOME 3 Revitalized
  desktop. Epiphany/Web is not included; Firefox remains the browser.
 
+Package: amethyst-gnome-tweaks
+Architecture: all
+Version: 3.34.1+amethyst1
+Priority: optional
+Section: gnome
+Maintainer: Amethyst Linux Developers <devel@amethystlinux.org>
+Installed-Size: 1255
+Provides: gnome-tweaks
+Depends: python3, python3-gi, gir1.2-gtk-3.0, gir1.2-pango-1.0, gir1.2-notify-0.7, gir1.2-handy-1, gir1.2-soup-3.0, gir1.2-gnomedesktop-3.0
+Conflicts: gnome-tweaks
+Replaces: gnome-tweaks
+Filename: pool/main/a/gnome-tweaks/amethyst-gnome-tweaks_3.34.1+amethyst1_all.deb
+Size: 191840
+MD5sum: c72d5137f807907966f8ad1380e42f58
+SHA1: 940523a6eea6ecdd24d70b7668119305269788bd
+SHA256: 58fb00455e80d70da9e6291f17ea8ff636c192e4a6a33c515b646b7e13ce66f5
+SHA512: 0ec2d99324f7a2ea161afac3f4f3c90dd08c0216685f8a962615bd39334753a16b8310996af68444ec2cc1355cf0419b1315ccdabbf34c1e5d80974eeadb3df6
+Homepage: https://wiki.gnome.org/Apps/Tweaks
+Description: Tweaks (GNOME 3 Revitalized forward-port)
+ Tweaks, forward-ported from GNOME 3.34 sources to run on current
+ Debian testing libraries as part of Amethyst's GNOME 3 Revitalized
+ desktop.
+
 Package: amethyst-gnome3-revitalized
 Architecture: all
 Version: 3.38.6+amethyst1

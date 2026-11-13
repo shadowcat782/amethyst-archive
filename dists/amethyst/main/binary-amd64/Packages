@@ -455,26 +455,26 @@ Description: Character Map (GNOME 3 Revitalized forward-port)
 
 Package: amethyst-gnome-control-center-dbgsym
 Architecture: amd64
-Version: 3.38.6+amethyst2
+Version: 3.38.6+amethyst3
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: amethyst-gnome-control-center
 Maintainer: Amethyst Linux Developers <devel@amethystlinux.org>
 Installed-Size: 5302
-Depends: amethyst-gnome-control-center (= 3.38.6+amethyst2)
-Filename: pool/main/a/gnome-control-center-dbgsym/amethyst-gnome-control-center-dbgsym_3.38.6+amethyst2_amd64.deb
-Size: 2212464
-MD5sum: eb58b6a2c8491cfc518719a5471a5853
-SHA1: 127679f981c2b12a4aa5167f0697091673c2389d
-SHA256: 22e167706c4baae4da542b2b2c8b99d009e4ea235b26d8d770c7420a52914255
-SHA512: ba9cd98a1a69e353dc3cd82e3dc0a3095d42c2ea28d6fef105fbabb97f14cba41ce1065f171f269e75c0b9d5e57bc061b0173aac463640dfa0bbb397cbfb9c4a
+Depends: amethyst-gnome-control-center (= 3.38.6+amethyst3)
+Filename: pool/main/a/gnome-control-center-dbgsym/amethyst-gnome-control-center-dbgsym_3.38.6+amethyst3_amd64.deb
+Size: 2212432
+MD5sum: 326fb15c9d0b55292619d8a02680f9a6
+SHA1: 1266832f4c61480492d4c0e78a0666edd5f60085
+SHA256: 9c063a6991dab29d82d19f13d5a2bc48bb1d7ce693522f506a30623a696b0bd0
+SHA512: e9351c71a9283c9c7b980b298acf1cd456ef247b5ebf18403105f3cb51580fda90c9a19c4b2aaff0c9f8e5c4273a8d0cd4db1fb03eca156dbb8373337145f033
 Description: debug symbols for amethyst-gnome-control-center
-Build-Ids: 37675ffa5589d99f7c8c25ca990d80633475a77d 9df5844e52d119632ff10c74184cde3d0287615b ae12ae0f76c006b872a366036d003155cadc70de b3341a8aad1590edbe164043a1f64b5c05fe4ffc
+Build-Ids: 37675ffa5589d99f7c8c25ca990d80633475a77d 7f90c973d7aa5024c5422062c0b3fb5b9362c392 ae12ae0f76c006b872a366036d003155cadc70de b3341a8aad1590edbe164043a1f64b5c05fe4ffc
 
 Package: amethyst-gnome-control-center
 Architecture: amd64
-Version: 3.38.6+amethyst2
+Version: 3.38.6+amethyst3
 Priority: optional
 Section: gnome
 Maintainer: Amethyst Linux Developers <devel@amethystlinux.org>
@@ -483,12 +483,12 @@ Provides: gnome-control-center
 Depends: libaccountsservice1 (>= 26.27.3), libatk1.0-0t64 (>= 1.12.4), libc6 (>= 2.38), libcairo2 (>= 1.14.0), libcups2t64 (>= 1.7.0), libepoxy0 (>= 1.0), libfontconfig1 (>= 2.12.6), libgdk-pixbuf-2.0-0 (>= 2.25.2), libglib2.0-0t64 (>= 2.83.0), libgnome-desktop-3-21 (>= 51~alpha), libgsound0t64 (>= 1.0.1), libgtk-3-0t64 (>= 3.21.5), libgtop-2.0-11 (>= 2.22.3), libgudev-1.0-0 (>= 146), libhandy-1-0 (>= 0.82.0), libkrb5-3 (>= 1.8+dfsg), libmm-glib0 (>= 0.7.991), libnm0 (>= 1.24.0), libnma0 (>= 1.1.90), libpango-1.0-0 (>= 1.37.2), libpangocairo-1.0-0 (>= 1.18.0), libpolkit-gobject-1-0 (>= 0.99), libpulse-mainloop-glib0 (>= 0.99.1), libpulse0 (>= 0.99.1), libpwquality1 (>= 1.1.0), libsecret-1-0 (>= 0.7), libsmbclient0 (>= 2:4.0.3+dfsg1), libudisks2-0 (>= 2.0.0), libupower-glib3 (>= 0.99.8), libx11-6, libxi6 (>= 2:1.2.99.4), libxml2-16 (>= 2.14.1), dconf-gsettings-backend | gsettings-backend
 Conflicts: gnome-control-center, gnome-control-center-data
 Replaces: gnome-control-center, gnome-control-center-data
-Filename: pool/main/a/gnome-control-center/amethyst-gnome-control-center_3.38.6+amethyst2_amd64.deb
-Size: 5024592
-MD5sum: 4e154aa0bb4c37889eb07d79d7465182
-SHA1: 60e949f77fec49c23b95ee1157f8df37323cf3ee
-SHA256: 7cd0831eecc7e7ebcd2d9aea6f5ba1e997266094d6be1982e774f593810948af
-SHA512: a6a2f4d3f1062977de296f4e656d7a71244d74d75033f2c516c2248c7fabe1d22075bbd0368581306377c1068f40c4df2f23e653a6b0ad2ec308ab57d995efa6
+Filename: pool/main/a/gnome-control-center/amethyst-gnome-control-center_3.38.6+amethyst3_amd64.deb
+Size: 5023704
+MD5sum: 57a858ab13f5e543856b9b0b9b74cebb
+SHA1: b958f7c7c06efdbc0c78a4453c0659c05d7c1352
+SHA256: 1ee10dc45589380b784ff366e3781cd1cf3be8dd146b6c398b359a794b89060a
+SHA512: e7c7e4cede4b8a6f5eed8dd34cd2183c8abb6215a28e07a1355fb54fc7a6db0e17d47345db0787a6c705db6139eebb3929b73a1fd616b98de8e245e3a04df7b3
 Homepage: https://wiki.gnome.org/Apps
 Description: Settings (GNOME 3 Revitalized forward-port)
  Settings, the control center, forward-ported from GNOME 3.38-era sources

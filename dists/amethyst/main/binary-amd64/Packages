@@ -819,13 +819,13 @@ Priority: optional
 Section: metapackages
 Source: amethyst-core
 Maintainer: Amethyst Linux Developers <devel@amethystlinux.org>
-Installed-Size: 212
+Installed-Size: 215
 Filename: pool/main/a/installer/amethyst-installer_1.0.0_all.deb
-Size: 155344
-MD5sum: abea84c25ccebf375276934e6d3c74b8
-SHA1: 3ca10fb0a5750913ebaf983c5704fe9f3ba84a63
-SHA256: c888e9b6255e663925efda7f70881c3824aa34e5ea989d9664a65b8618269683
-SHA512: fa590f6e25745f63e3c862ced5c4ccfb09dfcabad3de9799e4ccc6ac2d0e9a5c42cedb79963f26f2d63266ef7e50cebe31883535fb2c906140006ddb5345532d
+Size: 156192
+MD5sum: b3c86672b75a42b2aac48774ccf5b8eb
+SHA1: 0963ee6002da117e58c870f9761a8a637b072a41
+SHA256: 1a96ced16c36f8220dd1b93221cd8cd6f8d326ad31948b9a1cbd703c04a10a0f
+SHA512: df675b59f016545d1623b72a09a71bc57ba87aec17af08e685e6d2518719bed7eb1b23dfd39467ff42d386f3e2eecdfdb3c2c46e9be8e6f1fd54caf5410448a8
 Homepage: https://amethystlinux.org/
 Description: Amethyst Linux live installer integration (Calamares)
  This package ships the Calamares installer configuration, branding and
@@ -968,13 +968,13 @@ Priority: optional
 Section: metapackages
 Source: amethyst-core
 Maintainer: Amethyst Linux Developers <devel@amethystlinux.org>
-Installed-Size: 249
+Installed-Size: 676
 Filename: pool/main/a/wallpapers/amethyst-wallpapers_1.0.0_all.deb
-Size: 181692
-MD5sum: 090cf9b4037c12102783062ceab8d328
-SHA1: 798b9ad23f84eb58e55830b70184920f634782b3
-SHA256: 67db0de5ce504fa62c269fe1cd6c6a666543af929023eccff3569a80f4111f5f
-SHA512: 34103a63bbbedb5f28933efeecff38471d7f194e4ff99abbb422dc9c818712ecb0d1a6830ec69ed9ee94c917acd96017410ea557d314838e33efac0f015434f1
+Size: 530544
+MD5sum: 4c68da7547ae4b52fc143f4fd95deac1
+SHA1: ad83b8e3063a92a2387c44b77b36438e257f8354
+SHA256: 0d4b96c6fade8791963bba15f08931d5278fa951dbb38b0fea6e522f6376344e
+SHA512: daba88d8751aac9036a7a53250eb3e9d6a4020265d602110443b58b06f3be452d31183a993d1137a4a5d05332087a7808dee0fbf531f9c4cffdc7f5b5c6912a3
 Homepage: https://amethystlinux.org/
 Description: Amethyst Linux default wallpapers
  This package ships the Amethyst default wallpaper(s).

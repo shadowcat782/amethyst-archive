@@ -819,13 +819,13 @@ Priority: optional
 Section: metapackages
 Source: amethyst-core
 Maintainer: Amethyst Linux Developers <devel@amethystlinux.org>
-Installed-Size: 99
+Installed-Size: 212
 Filename: pool/main/a/installer/amethyst-installer_1.0.0_all.deb
-Size: 51920
-MD5sum: 294d18e102851962e05ce1abeab8c978
-SHA1: 2513003f2c3446db9aaa3c0f6c1d0534d5f5c503
-SHA256: 79deea6f226f787d5fd6875dd0b79d012f4fc86a77f31e8bd6a68fb7a2689539
-SHA512: 60b6a48d2a8058e44c339170ddafbf70ee0fa20625920daeeb8407a2365e2d3b3f6522c5576fcc4fe2130c7a4f51577b510aa2d699f1a59f3ff4a917104686e5
+Size: 155344
+MD5sum: abea84c25ccebf375276934e6d3c74b8
+SHA1: 3ca10fb0a5750913ebaf983c5704fe9f3ba84a63
+SHA256: c888e9b6255e663925efda7f70881c3824aa34e5ea989d9664a65b8618269683
+SHA512: fa590f6e25745f63e3c862ced5c4ccfb09dfcabad3de9799e4ccc6ac2d0e9a5c42cedb79963f26f2d63266ef7e50cebe31883535fb2c906140006ddb5345532d
 Homepage: https://amethystlinux.org/
 Description: Amethyst Linux live installer integration (Calamares)
  This package ships the Calamares installer configuration, branding and
@@ -968,13 +968,13 @@ Priority: optional
 Section: metapackages
 Source: amethyst-core
 Maintainer: Amethyst Linux Developers <devel@amethystlinux.org>
-Installed-Size: 108
+Installed-Size: 249
 Filename: pool/main/a/wallpapers/amethyst-wallpapers_1.0.0_all.deb
-Size: 68072
-MD5sum: eb47c5ab2f0d46e77f486036b0457ca0
-SHA1: c4b0f3006ef3f60c884e428bc5d6f7e96d565e98
-SHA256: 9b7accf2e6975b77387a58af186392343981d9e3137bce95cd5c7f8ecd8b3885
-SHA512: e00bd3c58553afee7754a51d88c708eea9671c91e402bc2f56d56dbc74aa9dba61738192289b18bcf8d9afceaeb23721a8377262fbcd04e5425b8a555e7c39a1
+Size: 181692
+MD5sum: 090cf9b4037c12102783062ceab8d328
+SHA1: 798b9ad23f84eb58e55830b70184920f634782b3
+SHA256: 67db0de5ce504fa62c269fe1cd6c6a666543af929023eccff3569a80f4111f5f
+SHA512: 34103a63bbbedb5f28933efeecff38471d7f194e4ff99abbb422dc9c818712ecb0d1a6830ec69ed9ee94c917acd96017410ea557d314838e33efac0f015434f1
 Homepage: https://amethystlinux.org/
 Description: Amethyst Linux default wallpapers
  This package ships the Amethyst default wallpaper(s).
@@ -986,14 +986,14 @@ Priority: optional
 Section: metapackages
 Source: amethyst-core
 Maintainer: Amethyst Linux Developers <devel@amethystlinux.org>
-Installed-Size: 25
+Installed-Size: 32
 Depends: gir1.2-gtk-3.0, python3-gi, python3-gi-cairo
 Filename: pool/main/a/welcome/amethyst-welcome_1.0.0_all.deb
-Size: 7616
-MD5sum: 3dcca3cb37fbceaa640663be090f2c32
-SHA1: 096b1c0e1f764631e1de0f6044a05bd9945c4326
-SHA256: fdf06b03161e128f759e3402b87b48bfee6ec47fa0484ea96bab6e90b71c9ed9
-SHA512: 24998b52ceb11e334bbd96f6ee351ebc572590a59fce54d6fa79a1f55def1c8845b01c7211e12154374307cb897917371b988b1a4c07df949c218651d86c14d4
+Size: 15116
+MD5sum: b24ce36d825bf70dfae64a05c4615b88
+SHA1: 1c378d4557ec989c705c0802ffcfd0faa93e4d02
+SHA256: bea3cd24a81364ea182a8c5193136e1f5c95e7c6850c1b92f86e51a7ccd4c418
+SHA512: 8d96f4a075e7a215adc54b1b749a876a43b2ec4735b1f300ce98f5b29da89d766c57c0f93f5958bbbe6c01e0cfe52b864e798028c5692f160713ab8a60d425ad
 Homepage: https://amethystlinux.org/
 Description: Amethyst Linux welcome application
  A small GTK 3 application shown on first boot describing the system and

@@ -1234,6 +1234,25 @@ SHA512: 59bc8a107685416e364cedc623760f8da1252a43744fa14ba84af984a0fddcf37522403b
 Description: debug symbols for amethyst-mutter
 Build-Ids: 1275277b16875ccc172668e8f944718d7433cc32 170ecca9f704e028f58404642cd376b408762c74 47cb8c7b7238ecb384fb648da21244fccee65923 770014ed3ceba3114109942cb8ee5a15b2cf9350 ac2d6d2a127bea4121c1a2fdc3c33475083ba2cf dc96f59d918556fc8e745963fd7b9675be2b2f71 ee89a2e4778daa0d867697435c748c70a780d379
 
+Package: amethyst-mutter-dbgsym
+Architecture: amd64
+Version: 3.38.6+amethyst2
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: amethyst-mutter
+Maintainer: Amethyst Linux Developers <devel@amethystlinux.org>
+Installed-Size: 6063
+Depends: amethyst-mutter (= 3.38.6+amethyst2)
+Filename: pool/main/a/mutter-dbgsym/amethyst-mutter-dbgsym_3.38.6+amethyst2_amd64.deb
+Size: 5322428
+MD5sum: 6986e78719b1a6b83fb49314988a90ae
+SHA1: 60629fc8e932cf208e6dd3d43d53a4675b287067
+SHA256: 4913c8b25e54459c37c3892a4e5875ec618c6161b4764eed83ae29f1bb0cac3f
+SHA512: 141c21a5d85bb550abf91c42ed1cc77f34b046e1fbfeea1a64ec693ddcbc9b0dcf733e59cdc16172cc71deaab1bb2ecd3b22debab5c0f046ece24ba786c27d10
+Description: debug symbols for amethyst-mutter
+Build-Ids: 1275277b16875ccc172668e8f944718d7433cc32 47cb8c7b7238ecb384fb648da21244fccee65923 770014ed3ceba3114109942cb8ee5a15b2cf9350 836b9a3dbb96dbbdcb136ef727ec83549f74ab69 ac2d6d2a127bea4121c1a2fdc3c33475083ba2cf dc96f59d918556fc8e745963fd7b9675be2b2f71 ee89a2e4778daa0d867697435c748c70a780d379
+
 Package: amethyst-mutter-dev
 Architecture: amd64
 Version: 3.38.6+amethyst1
@@ -1257,6 +1276,29 @@ Description: GNOME 3 Revitalized window manager - development files
  Headers, pkg-config file, and introspection data needed to build
  GNOME Shell 3.38 Revitalized against amethyst-mutter.
 
+Package: amethyst-mutter-dev
+Architecture: amd64
+Version: 3.38.6+amethyst2
+Priority: optional
+Section: libdevel
+Source: amethyst-mutter
+Maintainer: Amethyst Linux Developers <devel@amethystlinux.org>
+Installed-Size: 1668
+Provides: libmutter-7-dev, libmutter-dev, mutter-dev
+Depends: amethyst-mutter (= 3.38.6+amethyst2)
+Conflicts: libmutter-7-dev, libmutter-dev, mutter-dev
+Replaces: libmutter-7-dev, libmutter-dev, mutter-dev
+Filename: pool/main/a/mutter-dev/amethyst-mutter-dev_3.38.6+amethyst2_amd64.deb
+Size: 192180
+MD5sum: 2d7f5247bcca74505163887e2ac5db21
+SHA1: 35f42a6f060a154e8171d975f9c4832f31bfc302
+SHA256: 16b8f0d9b8cb3105d53866b04c04ba758b400c38a941bd99a0ed532bc9e4ef4a
+SHA512: 1e6a9d1a135a30752d56693232cbc905526a71c61b9815c8a4c67b1267d595a2babcc9b6df00c692c4530d0fce6e831d5e234f40dda1f8d046216d67f9a27e8b
+Homepage: https://amethystlinux.org/
+Description: GNOME 3 Revitalized window manager - development files
+ Headers, pkg-config file, and introspection data needed to build
+ GNOME Shell 3.38 Revitalized against amethyst-mutter.
+
 Package: amethyst-mutter
 Architecture: amd64
 Version: 3.38.6+amethyst1
@@ -1275,6 +1317,33 @@ MD5sum: a24cae6b634b7728ba7f229d3a6c6cf4
 SHA1: 6cfd47f2aa93de46a18ac43986b6e7e98ae25acf
 SHA256: 703c74c8cee14844aedd33b10700987e610d2fe34e8d2500816035de1deac7e4
 SHA512: 9a6059ee2758d96ec97b9dace9d6970093dfdb58924ae40c05807dfbe42a84c90fe34c716932cf57dc81efc1c7245b1fd4ab64f83adfa9f78cf125d6e3c4dcb2
+Homepage: https://amethystlinux.org/
+Description: GNOME 3 Revitalized window manager (Mutter 3.38)
+ Mutter is the window manager and compositor used by GNOME 3 Revitalized.
+ This is a forward-ported fork of Mutter 3.38.6 that builds against the
+ modern libraries shipped by Debian testing.
+ .
+ It provides the Meta-7 introspection API and the X11 window manager used
+ by the G3R session.
+
+Package: amethyst-mutter
+Architecture: amd64
+Version: 3.38.6+amethyst2
+Priority: optional
+Section: x11
+Maintainer: Amethyst Linux Developers <devel@amethystlinux.org>
+Installed-Size: 12495
+Provides: libmutter-7-0, mutter (= 3.38.6+amethyst1), mutter-common (= 3.38.6+amethyst1), x-window-manager
+Depends: libatk1.0-0t64 (>= 2.2.0), libc6 (>= 2.43), libcairo-gobject2 (>= 1.12.16), libcairo2 (>= 1.14.0), libcanberra0 (>= 0.2), libdrm2 (>= 2.4.71), libegl1, libfontconfig1 (>= 2.12.6), libfribidi0 (>= 0.19.2), libgbm1 (>= 17.1.0~rc2), libgdk-pixbuf-2.0-0 (>= 2.22.0), libgl1, libgles2, libglib2.0-0t64 (>= 2.83.0), libgnome-desktop-3-21 (>= 51~alpha), libgraphene-1.0-0 (>= 1.9.4), libgtk-3-0t64 (>= 3.19.12), libgudev-1.0-0 (>= 165), libice6 (>= 1:1.0.0), libinput10 (>= 1.9.2), libjson-glib-1.0-0 (>= 1.5.2), libpango-1.0-0 (>= 1.37.5), libpangocairo-1.0-0 (>= 1.18.0), libpangoft2-1.0-0 (>= 1.14.0), libpipewire-0.3-0t64 (>= 0.3.1), libsm6 (>= 2:1.2.6), libstartup-notification0 (>= 0.11), libsystemd0 (>= 213), libudev1 (>= 183), libwacom9 (>= 2.0.0), libwayland-client0 (>= 1.0.2), libwayland-server0 (>= 1.13.0), libx11-6 (>= 2:1.2.99.901), libx11-xcb1, libxau6 (>= 1:1.0.11), libxcb-randr0 (>= 1.1), libxcb-res0 (>= 1.10), libxcb1, libxcomposite1 (>= 1:0.4.6), libxcursor1 (>> 1.1.2), libxdamage1 (>= 1:1.1), libxext6 (>= 2:1.3.0), libxfixes3 (>= 1:5.0), libxi6 (>= 2:1.6.99.1), libxinerama1 (>= 2:1.1.4), libxkbcommon-x11-0 (>= 0.5.0), libxkbcommon0 (>= 0.5.0), libxkbfile1 (>= 1:1.1.0), libxrandr2 (>= 2:1.5.0), libxtst6 (>= 2:1.2.6), dconf-gsettings-backend | gsettings-backend, gsettings-desktop-schemas
+Conflicts: libmutter-10-0, libmutter-11-0, libmutter-12-0, libmutter-13-0, libmutter-14-0, libmutter-15-0, libmutter-16-0, libmutter-6-0, libmutter-7-0, libmutter-7-0t64, libmutter-8-0, libmutter-9-0, mutter, mutter-common
+Breaks: mutter-common (<< 3.38.6+amethyst1)
+Replaces: libmutter-7-0, libmutter-7-0t64, mutter, mutter-common
+Filename: pool/main/a/mutter/amethyst-mutter_3.38.6+amethyst2_amd64.deb
+Size: 2066464
+MD5sum: 3e21fbb81e16c910a8b209ec0c0bf44d
+SHA1: cdcc2eb17056234b3e423b1df1bc78a1265e2879
+SHA256: 01776d62382acbad3b8def1ddf9dfc6ab7d7f99694a233b854bd4450ec4fcef4
+SHA512: 78a8fd7802f82122e26d27c3c5b57f57a1c9d8b8593505bd1b2fc085c7c2bbdbd5b4d1d41cfdd48a263a91d7feb6948746e856f330874930bb3b550918ab317a
 Homepage: https://amethystlinux.org/
 Description: GNOME 3 Revitalized window manager (Mutter 3.38)
  Mutter is the window manager and compositor used by GNOME 3 Revitalized.

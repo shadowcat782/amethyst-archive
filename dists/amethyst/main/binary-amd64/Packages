@@ -47,18 +47,18 @@ Description: Amethyst Linux archive GPG keyring
 
 Package: amethyst-archive-keyring
 Architecture: all
-Version: 1.0.5
+Version: 1.0.6
 Priority: optional
 Section: metapackages
 Source: amethyst-core
 Maintainer: Amethyst Linux Developers <devel@amethystlinux.org>
 Installed-Size: 13
-Filename: pool/main/a/archive-keyring/amethyst-archive-keyring_1.0.5_all.deb
-Size: 4320
-MD5sum: 16953cd439a903d4ca0fafab14a172c0
-SHA1: 74695aa13dd73fd64f5f92f5763ce640a4d8f1c0
-SHA256: f08916cd3214f1e5218ee445dd718eecc5b5853980f87e84cd61383506330e3f
-SHA512: 4c8fd8f3ceb7b81e753747bb317767ea8c8ee9e40a63bc03253ec151f447ce4d9d751adf9835c0b9911050b58d7f8dd11daba7774cc4e56df696a25a72a66885
+Filename: pool/main/a/archive-keyring/amethyst-archive-keyring_1.0.6_all.deb
+Size: 4508
+MD5sum: a93fc5f598a1ec6cdfa49632e7832b85
+SHA1: 82672be2bb53c315e9ee0e02ad16510cffa3984b
+SHA256: c73e58c4e193911a48f1ed15bbb636b61e3274c4a08a70f5c81826e46a16ca37
+SHA512: 38b4611756aa02c2844626baa7722d3511829bdb64aa564f73fa431aec139bc44c7737cafec6ae93643c7234f08bdc236e63abc6aff2de3bc7811b0bb753e56b
 Homepage: https://amethystlinux.org/
 Description: Amethyst Linux archive GPG keyring
  This package ships the public GPG key used to verify the Amethyst
@@ -132,18 +132,18 @@ Description: base files for Amethyst Linux (Debian testing base layer)
 
 Package: amethyst-base-files
 Architecture: all
-Version: 1.0.5
+Version: 1.0.6
 Priority: optional
 Section: metapackages
 Source: amethyst-core
 Maintainer: Amethyst Linux Developers <devel@amethystlinux.org>
 Installed-Size: 24
-Filename: pool/main/a/base-files/amethyst-base-files_1.0.5_all.deb
-Size: 4120
-MD5sum: f8b16510fdd884acda344842b5a4dcbb
-SHA1: 01998ed2dead6a8e527f80d0af3b91eebcf55df2
-SHA256: 0c318bfebf3d8f66454262fc712fb6fe95c5483f71f9d7cda9c24b4140f4e597
-SHA512: f5d0af20bb26098a7589b6673ccbad84c32337757de362edbe8591a81589e8223473b177bb8fd923fb8df78942d3f67d74a8d753994894151311485434f7b7ce
+Filename: pool/main/a/base-files/amethyst-base-files_1.0.6_all.deb
+Size: 4316
+MD5sum: 657d755553b10edaa2d3f71df65f034f
+SHA1: c2367b747dce272698d1bc26118a61771994da76
+SHA256: bca091f4c9d351af72745e26d3c2a8ec19e014ca9af3422001df1ccf3c78563f
+SHA512: 4070b959c3d4b6c895f96fdf4596e99c3a8390b1eae10cc267758036561a6eef0f84a55c93d7e1144c42f5cbfafe1c25bc61ad967ff3ffafabf49a935936abb1
 Homepage: https://amethystlinux.org/
 Description: base files for Amethyst Linux (Debian testing base layer)
  This package installs the base identity files of Amethyst Linux: the
@@ -175,19 +175,19 @@ Description: Amethyst Linux desktop default settings
 
 Package: amethyst-desktop-defaults
 Architecture: all
-Version: 1.0.5
+Version: 1.0.6
 Priority: optional
 Section: metapackages
 Source: amethyst-core
 Maintainer: Amethyst Linux Developers <devel@amethystlinux.org>
-Installed-Size: 46
+Installed-Size: 51
 Depends: dconf-gsettings-backend | gsettings-backend
-Filename: pool/main/a/desktop-defaults/amethyst-desktop-defaults_1.0.5_all.deb
-Size: 6992
-MD5sum: 25079c9c4a204b6435ef2c0e853099c1
-SHA1: 99a857a119df83867f851fda930eb3c223ef5c1d
-SHA256: e6e84ae7befa42bee0897968e59b293870d2d7233225599115cc7795a768d3aa
-SHA512: 5dbab4634a59192bc2be60a509c5850534c388e8612f8ff7742c05b11fbae0cba4fd47341f1cca6ac05ccc8f1c86852390726aee0e52382bd1e71b56376cb5d6
+Filename: pool/main/a/desktop-defaults/amethyst-desktop-defaults_1.0.6_all.deb
+Size: 8088
+MD5sum: 3bf796b35e95a7f6039240e3a4ad3315
+SHA1: 597fb471a0973a6ec283e651bb447636f80a893c
+SHA256: 17f89d771377c7429887617037a58859e2c450375c566b93ff5fe0bb74c95f59
+SHA512: 3f534334aa6620a2a59216e6724b320a4b205c2592b72908a7adbcfc0f535b5ba01c5469a2d36de15c6d4dacea1c5913b38453c9f087de1f0fa41f1aa79844a2
 Homepage: https://amethystlinux.org/
 Description: Amethyst Linux desktop default settings
  This package ships the GSettings overrides, dconf profiles and GNOME
@@ -217,7 +217,7 @@ Description: Amethyst Linux desktop (GNOME 3 Revitalized)
 
 Package: amethyst-desktop
 Architecture: all
-Version: 1.0.5
+Version: 1.0.6
 Priority: optional
 Section: metapackages
 Source: amethyst-core
@@ -225,12 +225,12 @@ Maintainer: Amethyst Linux Developers <devel@amethystlinux.org>
 Installed-Size: 10
 Depends: amethyst-gnome3-revitalized, amethyst-desktop-defaults, amethyst-wallpapers, amethyst-welcome, amethyst-base-files
 Recommends: amethyst-gaming, firefox-esr | firefox, amethyst-gdm, network-manager, gnome-software, amethyst-nautilus, amethyst-gnome-terminal, amethyst-evince, amethyst-gnome-disk-utility, amethyst-gnome-system-monitor, amethyst-gnome-screenshot, amethyst-baobab, amethyst-file-roller, amethyst-gnome-logs, amethyst-gnome-characters, amethyst-gnome-font-viewer
-Filename: pool/main/a/desktop/amethyst-desktop_1.0.5_all.deb
-Size: 3244
-MD5sum: 4b520155666d395690e4720c76bdb9bc
-SHA1: 97117ce328ac4ca72d3b9d8e4b2837cc5a56a223
-SHA256: a90b13034269c6ed17cf71afb54d5f547f987cccba91d0583ce942f9e6051b20
-SHA512: 5451fc63b5c0e98c55f523e9e047bea7db7af37a1a03e620708af7c942b4189b8cd8c9e9336163097001a47a038849b70caf348e9918bc42776c6f1ea6c9a8c3
+Filename: pool/main/a/desktop/amethyst-desktop_1.0.6_all.deb
+Size: 3432
+MD5sum: 07844cb2f70d0a7149665a1caab0dea0
+SHA1: 22c96cb589c263cca95b9bbf459d08260898736c
+SHA256: b1e83ddbee1fd2471df1fcec05e556f7bc1355834c0900ca7362b79f0fbc3103
+SHA512: 3b5d029c960c4dd5a7ab9495c9eccfbbcd8de003deaa8845755d77760441487fbfaddd7575f6e6cb8962d25102ec08ab0a205e54448d403a8bb867928f6fc24b
 Homepage: https://amethystlinux.org/
 Description: Amethyst Linux desktop (GNOME 3 Revitalized)
  This is the meta package that installs the Amethyst desktop: the
@@ -345,7 +345,7 @@ Description: Amethyst Linux gaming stack (Steam and friends)
 
 Package: amethyst-gaming
 Architecture: all
-Version: 1.0.5
+Version: 1.0.6
 Priority: optional
 Section: metapackages
 Source: amethyst-core
@@ -353,12 +353,12 @@ Maintainer: Amethyst Linux Developers <devel@amethystlinux.org>
 Installed-Size: 10
 Recommends: steam-installer, gamescope, lutris, gamemode, mangohud, goverlay, vkbasalt, vulkan-tools, mesa-vulkan-drivers
 Suggests: wine, winetricks
-Filename: pool/main/a/gaming/amethyst-gaming_1.0.5_all.deb
-Size: 3160
-MD5sum: d56eedee324a8b3de8454dc23c49a3b8
-SHA1: 9413dbcbc8692cd00645ee10048f2716b4a8625e
-SHA256: 125a9f8021481feee8f8f3fbda0d5ac589b2c7a83a63724161f9bc6ea95fbaf4
-SHA512: c7e9fb3572f06221088397854fe36b248273e59332fff9707301c8d4696f3d28f6d2ef27877d549a9a6911777f84741dae1f6642069c28e3e1b8e777a1a56359
+Filename: pool/main/a/gaming/amethyst-gaming_1.0.6_all.deb
+Size: 3352
+MD5sum: 4c1f8608cefcced4b24c84d47001399b
+SHA1: ce26996b871459c5527b1df9316e73f427e40891
+SHA256: be43b2b8f5846a26ecdcbd85d20ec0893e4aca02f4732f442dd7824355bf2700
+SHA512: 3742a23bfc0441a13a80b2a7fb60f4b8efe79bc7b1a415fb2bd994c7ee331b0406d2f89e971c083aaecc67e9c101dd208ca6e7b4ea4018ed6023c5c8aa129af7
 Homepage: https://amethystlinux.org/
 Description: Amethyst Linux gaming stack (Steam and friends)
  This package pulls in the gaming stack. It is only a Recommends of the
@@ -1035,18 +1035,18 @@ Description: Amethyst Linux live installer integration (Calamares)
 
 Package: amethyst-installer
 Architecture: all
-Version: 1.0.5
+Version: 1.0.6
 Priority: optional
 Section: metapackages
 Source: amethyst-core
 Maintainer: Amethyst Linux Developers <devel@amethystlinux.org>
 Installed-Size: 216
-Filename: pool/main/a/installer/amethyst-installer_1.0.5_all.deb
-Size: 157224
-MD5sum: 50e37be63c274cfcec1d0a757542f089
-SHA1: d6c57fdd153c11ce8c8ebe9232ce6c3c0aafbff5
-SHA256: 1af122c985385f40c0c35520ed0001e5ca841cf0cf17213c7db34ec3a1870847
-SHA512: f8d26aa92871a0940ea91ddd15c9d5812994adf4a71cadba9924909d0a7370846a245a7396860dfaf06ac8ff2ff240d3821bd3f369bdf14729562297a06f9eb0
+Filename: pool/main/a/installer/amethyst-installer_1.0.6_all.deb
+Size: 157416
+MD5sum: 7e186a50eebfcde358966b8bbae447fe
+SHA1: fd6fcab68e3658fb54d9899ee97db31c2ef6195a
+SHA256: 346a1cf658e485c5bcebbce9b7b534722bb09bc25b72492f7f6e0837ed610776
+SHA512: 3f5ef632b9cf36cb3a4c6742606f5ccca9e9f6792f6a0b3cbfd082d3b09ba6c4ee636e529f387e617fbe272a5415b4438639a2370d62508bbdfac54a55322b4b
 Homepage: https://amethystlinux.org/
 Description: Amethyst Linux live installer integration (Calamares)
  This package ships the Calamares installer configuration, branding and
@@ -1073,18 +1073,18 @@ Description: Amethyst Linux live session configuration
 
 Package: amethyst-live-config
 Architecture: all
-Version: 1.0.5
+Version: 1.0.6
 Priority: optional
 Section: metapackages
 Source: amethyst-core
 Maintainer: Amethyst Linux Developers <devel@amethystlinux.org>
 Installed-Size: 23
-Filename: pool/main/a/live-config/amethyst-live-config_1.0.5_all.deb
-Size: 3640
-MD5sum: 75960c59292d24618c4c284c6de8c0f5
-SHA1: 3c22e96c3c328e528e9492867404035c9dd543b5
-SHA256: 04c3380fe3288de5f6c926fb571e8f82d8b6f222c97310d423fc632687bcbf90
-SHA512: daa29e3fd58a12753136a9fa25cd17833393fb866e4d942f16b06b6a45c0a7b604045c076cd3f8918f04d48004235a8ded69df55ed12ebf700e45a31a5429202
+Filename: pool/main/a/live-config/amethyst-live-config_1.0.6_all.deb
+Size: 3828
+MD5sum: 26203512ba9f85c91db0cbb86ca6f49a
+SHA1: 4279ffd02c9d2662d97d7513a34232c5105f75c5
+SHA256: 3c60df8305955c288a58badf04bc483e97d6e86399ec1cb7e49cfbe1cf04e7fc
+SHA512: e97139cfd786c81055b755c3d0f686387db81239077c8ecb5a90838fe02e51468a0d168907b6883e23e8382a9d6ab5211c11b5fb1f1ad40e9b7f1fd2e0faec3d
 Homepage: https://amethystlinux.org/
 Description: Amethyst Linux live session configuration
  This package ships the live session user configuration (autologin user,
@@ -1221,18 +1221,18 @@ Description: Amethyst Linux default wallpapers
 
 Package: amethyst-wallpapers
 Architecture: all
-Version: 1.0.5
+Version: 1.0.6
 Priority: optional
 Section: metapackages
 Source: amethyst-core
 Maintainer: Amethyst Linux Developers <devel@amethystlinux.org>
 Installed-Size: 677
-Filename: pool/main/a/wallpapers/amethyst-wallpapers_1.0.5_all.deb
-Size: 531476
-MD5sum: c6213801568813500761b74cdeccf582
-SHA1: 025931cb4aef8406b98f7ecd7036cb7b7d4c686e
-SHA256: d89f7a87f31bf6dc032c1acac09c5e70dd0e9d205079371d15e53de174e58bbd
-SHA512: b76346860034d8526ff50c4b6fb63e6261e53cc12049f1a933e9aec028a7039890feffaf6b7510cf9a38a20e12b8fad9e343b8c62c43f546f1f2ff591f9027b3
+Filename: pool/main/a/wallpapers/amethyst-wallpapers_1.0.6_all.deb
+Size: 531668
+MD5sum: f3ab3a16522878d03eb954bffbfbf0ac
+SHA1: 804cd0e8f799e24c421cb87876f1a8b21072f7fa
+SHA256: c520503e6560f85b7c65bb6b22f2c4a3c66ac322bceb4d72d7b25c17cecc5b02
+SHA512: 28207fc4024919d2377794e8642b54094bc1db5f8ea021ba5f785bc9f2dc532809cc7aada3545b5945f011ac4b5623cdd36f1ecf814829e0a144500c6437cb80
 Homepage: https://amethystlinux.org/
 Description: Amethyst Linux default wallpapers
  This package ships the Amethyst default wallpaper(s).
@@ -1259,19 +1259,19 @@ Description: Amethyst Linux welcome application
 
 Package: amethyst-welcome
 Architecture: all
-Version: 1.0.5
+Version: 1.0.6
 Priority: optional
 Section: metapackages
 Source: amethyst-core
 Maintainer: Amethyst Linux Developers <devel@amethystlinux.org>
 Installed-Size: 33
 Depends: gir1.2-gtk-3.0, python3-gi, python3-gi-cairo
-Filename: pool/main/a/welcome/amethyst-welcome_1.0.5_all.deb
-Size: 16052
-MD5sum: 24355cfa026fad17dca86c1093cc08be
-SHA1: fe0e9b3863bd7234ad168404c25f1ae27dfd7c06
-SHA256: f2c657af247bf1ab317e720b4616f5b9a426503a380b15e88be7a888017646cd
-SHA512: 5a45051a84b7134c345650df2545bb54d4aeb03f42539058dc41c999af9c1ddbfeab1d62ae2b693c4b8bf1fd7f763baaf9acbf8c6d3d5e3accbb50ac972e1fb3
+Filename: pool/main/a/welcome/amethyst-welcome_1.0.6_all.deb
+Size: 16244
+MD5sum: 0944a1832743ddb3d3a204d39f1b6033
+SHA1: 89236ae528d41eea4ac13fba66ba894f1214c8d9
+SHA256: c89025e1ec56e16ba2bacd650e94095b86b3fca2501e73bbd8ddb82c0cce9426
+SHA512: b5c8edabea67cadc0c130eb31b4d6fcaa04bd64cdf785f4c7a738116ffa94d64239a3ec86b0e7aefdf2e9a58c4491bce0ec40b416743532674ac75f0b53a43fb
 Homepage: https://amethystlinux.org/
 Description: Amethyst Linux welcome application
  A small GTK 3 application shown on first boot describing the system and
